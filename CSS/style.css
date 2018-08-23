@@ -1,0 +1,116 @@
+body{
+  background-image: url("../images/herbe.jpg")
+}
+
+div{
+  display: inline-block;
+}
+
+
+.but_1{
+  border: 1px solid white;
+  z-index: 3;
+  position: absolute;
+  height: 200px;
+  width: 70px;
+  top: 110px;
+  left: 0;
+  overflow: hidden;
+}
+
+.but_2{
+  border: 1px solid white;
+  z-index: 3;
+  position: absolute;
+  height: 200px;
+  width: 70px;
+  top: 110px;
+  right: 0;
+}
+
+.surface_1{
+  border: 1px solid white;
+  z-index: 2;
+  position: absolute;
+  height: 400px;
+  width: 200px;
+  top: 110px;
+  left: 0;
+  margin-left: 10px;
+  background-image: url("../images/herbe.jpg")
+}
+
+.surface_2{
+  border: 1px solid white;
+  z-index: 2;
+  position: absolute;
+  height: 400px;
+  width: 210px;
+  top: 110px;
+  right: 0;
+  margin-right: 10px;
+  background-image: url("../images/herbe.jpg")
+}
+
+.cercle{
+  position: absolute;
+  z-index: 1;
+  width:150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 1px solid white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.demi_rond_1{
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px solid white;
+  top: 50%;
+  left:210px;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.demi_rond_2{
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px solid white;
+  top: 50%;
+  right:170px;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.mediane{
+  border: 1px solid white;
+  position: absolute;
+  left: 50%;
+  height: 100%;
+}
+
+.point_1{
+  border: 5px solid white;
+  z-index: 3;
+  position: relative;
+  left: 110px;
+  top: 310px;
+  border-radius: 100%;
+}
+
+.point_2{
+  border: 5px solid white;
+  z-index: 3;
+  position: relative;
+  right: 110px;
+  top: 310px;
+  border-radius: 100%;
+}
